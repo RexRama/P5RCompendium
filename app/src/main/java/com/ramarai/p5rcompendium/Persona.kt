@@ -54,7 +54,3 @@ val personaByUsers: Map<String, List<Persona>> = mapOf(
     )
 
 )
-
-data class imgUser(val name: String, val imageResId: Int){
-
-}
