@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Phantom Thieves Compendium</string>
+    <string name="personas_name">Persona Name</string>
+    <string name="arcana">Arcana</string>
+    <string name="persona_user">Persona User</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="persona_descriptions">Persona Description</string>
+    <string name="persona_detail">Persona Detail</string>
+    <string name="persona_user_name">Name :</string>
+    <string name="arcana_name">Arcana :</string>
+    <string name="character_story">Character Overview :</string>
+    <string name="overview_character" />
+
+    <string-array name="arcana_array">
+        <item>The Fool</item>
+        <item>The Magician</item>
+        <item>The Chariot</item>
+        <item>The Lovers</item>
+        <item>The Emperor</item>
+        <item>The Priestess</item>
+        <item>The Hermit</item>
+        <item>The Empress</item>
+        <item>The Justice</item>
+        <item>The Faith</item>
+    </string-array>
+    <string-array name="user_array">
+        <item>Ren Amamiya</item>
+        <item>Morgana</item>
+        <item>Ryuji Sakamoto</item>
+        <item>Ann Takamaki</item>
+        <item>Yusuke Kitagawa</item>
+        <item>Makoto Niijima</item>
+        <item>Futaba Sakura</item>
+        <item>Haru Okumura</item>
+        <item>Goro Akechi</item>
+        <item>Sumire Yoshizawa</item>
+    </string-array>
+
+    <string-array name="userPicture">
+        <item>https://static.wikia.nocookie.net/megamitensei/images/3/3c/P5RHero.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/0/0f/P5R_Morgana.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/1/13/P5RRyujiSakamoto.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/3/3c/P5RAnnTakamaki.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/d/d5/P5RYusukeKitagawa.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/6/60/P5R_Makoto.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/2/25/P5RFutabaSakura.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/5/57/P5R_Haru.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/0/02/P5R_Akechi.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/1/13/Kasumi_normal_with_mask.png</item>
+    </string-array>
+
+    <string-array name="arcana_img">
+        <item>https://static.wikia.nocookie.net/megamitensei/images/0/0b/P5_Fool_arcana_cooperation.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/e/e6/P5_Magician_arcana_cooperation.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/e/eb/P5_Chariot_arcana_cooperation.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/4/4b/P5_Lover_arcana_cooperation.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/8/86/P5_Emperor_arcana_cooperation.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/c/c2/P5_Priestess_arcana_cooperation.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/5/57/P5_Hermit_Arcana.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/5/52/P5_Empress_arcana_cooperation.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/2/26/P5_Justice_Arcana.png</item>
+        <item>https://static.wikia.nocookie.net/megamitensei/images/e/e6/Faith.png</item>
+    </string-array>
+
+    <string name="joker">The protagonist of Persona 5, canonically named Ren Amamiya (which appeared in several spin-off media before becoming his default name in the 2022 re-release of Persona 5 Royal), is a second-year transfer student at Shujin Academy, being placed there to continue his academics due to his ongoing probation resulting from being falsely framed for assault.\n\nAt the beginning of the game, he has sacrificed himself for the sake of protecting another person, having lost all power or influence in the world as a consequence. However, beneath his quiet demeanor is a strong-willed Wild Card leading the Phantom Thieves and capable of exploiting the Metaverse to affect reality. To his teammates, his code name is Joker, and to the residents of the Velvet Room he is known as the Trickster. The protagonist is the leader of the rebellious Phantom Thieves of Hearts, a group which aims to change society by touching the hearts of people and performing illegal heists.</string>
+    <string name="fox">Yusuke Kitagawa is a playable character from Persona 5. He is an art student from Kosei High School who becomes involved with the Phantom Thieves of Hearts. \n\n\"…Very well! Just as art is meant to break boundaries, people should be saved even if they frown upon it. I won\'t allow the justice I believe in to be shaken any further…!\"</string>
+    <string name="queen">Makoto Niijima is a playable character in Persona 5. She\'s the student council president of Shujin Academy who lives a double life as a Phantom Thief. \n\n\"Before you guys came along, my life was defined by rules, set on a path of someone else\'s choosing… But only a true loser would live such a rigid life! I… I will win… Even if it means going up against the entire world!\"</string>
+    <string name="oracle">Futaba Sakura is the Navigator of the Phantom Thieves from Persona 5. She is different from the main crew of the Phantom Thieves, as prior to Persona 5 Strikers, she was a shut-in who does not attend school and rarely, if ever, leaves her house. \n\n\"I won\'t let those distorted lies deceive me anymore… And I won\'t be led astray by other\'s voices either… I\'m going to trust my own eyes and my own heart to distinguish the truth from the lies. There\'s no way you\'re my mom! You\'re just a fake created by those horrid adults! I\'ll… I\'ll never… I\'ll never forgive them!\"</string>
+    <string name="mona">Morgana is a major playable character of Persona 5. He is a mysterious being with ties to Mementos. He doesn\'t know who he is, and seeks answers to restore his memories.\n\nWhile investigating Palaces, he encounters the protagonist and would have stuck with him since. During the group\'s activities as Phantom Thieves, Morgana acts as their second-in-command, mascot and guide. To his teammates, he\'s also known as Mona during missions.\n\nMorgana plays an important role in the group\'s infiltration of the Depths of Mementos, the original final arc of Persona 5.\n\n\"Remember… There\'s no such thing as the \"real\" world. What each person sees and feels— Those are what shape reality. This is what gives the world infinite potential. Even if you feel that only darkness lies ahead… As long as you hold hands together… See it through as one… …the world will never end! The world exists within all of you…!\"</string>
+    <string name="skull">Ryuji Sakamoto is a playable character from Persona 5. He is a student at Shujin Academy and a former track star who lives a double life as a Phantom Thief. He is the protagonist\'s right-hand man and the Phantom Thieves\' charge commander.\n\n\"I get it now… We\'re doin\' this to make sure people don\'t gotta go through the same crap we did. It doesn\'t matter if they think we\'re just or not. We gotta do what we believe in!\nHeh, and it\'s not like people think much of me anyways. I\'m gonna dash through this the only way I know how!\"</string>
+    <string name="panther">Ann Takamaki is a playable character from Persona 5. She is a student at Shujin Academy who lives a double life as a Phantom Thief.\n\nAfter ridden with guilt over her helplessness to protect others and herself, which led to her letting her best friend Shiho Suzui fall victim to Suguru Kamoshida, she would sacrifice herself to support her friends while facing, overcoming and promising not to return back to her old self.\n\n\"…You\'re right. I could never abandon her. If I whine like this now, I\'d just be betraying Shiho… …No, I\'d be betraying myself! I could never forget how I felt that day. I… I never want anyone to have to go through what I did!\nI\'ve made up my mind. I\'m going to keep looking forward. Things like dying or losing aren\'t important now. All that matters is that I don\'t return to my old self. …I\'ll never make a mistake like that again. I swear it!\"\n</string>
+    <string name="noir">Haru Okumura is a playable character from Persona 5. She is a wealthy girl who attends Shujin Academy, and lives a double life as a Phantom Thief. She is the only daughter of Kunikazu Okumura, the Thieves\' fifth major target.\n\nHer life controlled by her father, Haru would look away from the truth of both her own desires and her father\'s intentions, substituting for vague notions and superficial motivations. Aware of that, she would instead face her desire of freedom and betray him with the support of her newfound friends of the Phantom Thieves.\n\n\"…I won\'t give up anymore. Just as I betrayed my distorted father before, I will betray my boring former self now!\"</string>
+    <string name="violet">Sumire Yoshizawa is a playable character from Persona 5 Royal. She is a first-year transfer student at Shujin Academy and a talented gymnast who gets involved with the Phantom Thieves of Hearts. She is overcome with guilt after her older sister Kasumi gives her life to save her. For most of the game, thanks to Takuto Maruki\'s cognitive intervention, she believes she is her sister Kasumi.\n\nWith the help of the Phantom Thieves, she recovers her true identity, faces up to her guilt, and finds faith in herself. She helps to take down Maruki, who has rewritten reality in an effort to erase all pain and suffering. Her code name is Violet.\n\n\"Some people want to run from their pain and cling to some other version of reality… Like I used to. But the knowledge I gained through that pain, and my desire to move on… Those are even more precious to me! And I won\'t let anyone take them from me again!\"</string>
+    <string name="crow">Goro Akechi is a playable character from Persona 5. He is a public celebrity, touted by his fans and the media as the second coming of the detective prince (after the first appeared in Persona 4), and is investigating the mysterious Phantom Thieves of Hearts case sensationalizing Japan.\n\nDuring the course of the story, Akechi would condemn the Phantom Thieves\' actions. He temporarily cooperates with them for professional reasons, using the codename Crow. He also acts as the protagonist\'s rival. His past having produced inherent feelings of hatred that would become a stigma for him, Akechi tries to perfect himself to be acceptable to others.\n\nIn Persona 5 Royal, he acts as the deuteragonist of the new themes and events of the story. He would let go of his desire to be acknowledged for the sake of himself, no matter who he is.\n\n\"You don\'t allow yourself to be enslaved by such things as human relations or past selves… And so, your heart is always free. The exact opposite of mine. To be honest, I\'m envious… I wonder why we couldn\'t have met a few years earlier"</string>
+    <string name="about">About Me</string>
+    <string name="about_me">About Me</string>
+    <string name="my_name">Raihan Ramadhan</string>
+    <string name="about_email">raidhan.rama.11@gmail.com</string>
+    <string name="share">Share</string>
+</resources>

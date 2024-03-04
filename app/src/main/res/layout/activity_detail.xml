@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:text="@string/persona_detail"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_item_photo"
+            app:layout_constraintStart_toStartOf="@+id/img_item_photo"
+            app:layout_constraintTop_toBottomOf="@+id/img_item_photo" />
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="319dp"
+            android:layout_height="291dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/tv_detail_name"
+            app:layout_constraintStart_toStartOf="@+id/tv_detail_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_name"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_item_photo"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/personas_name" />
+
+
+        <ImageView
+            android:id="@+id/img_item_User"
+            android:layout_width="148dp"
+            android:layout_height="215dp"
+            android:layout_below="@id/tv_detail_name"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_description"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/img_item_arcana"
+            android:layout_width="69dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_arcana_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_arcana"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_detail_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:text="@string/persona_user"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_userName"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_description" />
+
+        <TextView
+            android:id="@+id/tv_detail_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/persona_user_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/img_item_User"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_description" />
+
+        <TextView
+            android:id="@+id/tv_detail_arcana_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_detail_user"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/img_item_User"
+            android:padding="8dp"
+            android:text="@string/arcana_name"
+            app:layout_constraintEnd_toStartOf="@+id/tv_detail_user"
+            app:layout_constraintStart_toEndOf="@+id/img_item_User"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_userName" />
+
+        <TextView
+            android:id="@+id/tv_detail_arcana"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_detail_user"
+            android:layout_toEndOf="@+id/img_item_User"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="4dp"
+            android:text="@string/arcana"
+            app:layout_constraintEnd_toEndOf="@+id/tv_detail_user"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_arcana_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_user" />
+
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:text="@string/persona_descriptions"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:id="@+id/tv_detail_userDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:text="@string/character_story"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/img_item_User"
+            tools:layout_editor_absoluteX="9dp" />
+
+        <TextView
+            android:id="@+id/tv_detail_overview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="@+id/tv_detail_arcana"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_userDescription"
+            android:padding="8dp"
+            android:layout_marginTop="4dp"
+            android:justificationMode="inter_word"
+            android:text="@string/overview_character"/>
+
+        <Button
+            android:id="@+id/action_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/share"
+            android:layout_marginBottom="152dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_overview"
+            app:layout_constraintVertical_bias="0.0"
+            tools:layout_editor_absoluteX="287dp"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+</ScrollView>
