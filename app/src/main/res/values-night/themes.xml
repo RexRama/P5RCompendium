@@ -1,7 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Persona5RoyalCompendium" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.Persona5RoyalCompendium" parent="Theme.AppCompat.DayNight">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/red_dark</item>
     </style>
 </resources>

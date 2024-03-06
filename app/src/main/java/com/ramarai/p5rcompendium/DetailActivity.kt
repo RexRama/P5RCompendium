@@ -1,6 +1,7 @@
 package com.ramarai.p5rcompendium
 
 import android.content.Intent
+
 import android.os.Build
 import android.os.Bundle
 import android.widget.Button
@@ -9,10 +10,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.ramarai.p5rcompendium.databinding.ActivityDetailBinding
 
 
+@Suppress("DEPRECATION")
 class DetailActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailBinding
@@ -66,15 +67,18 @@ class DetailActivity : AppCompatActivity() {
         binding.tvDetailDescription.text = dataPersona?.personaDescription
         when (dataPersona?.personaName) {
             "Arsene" , "Satanael" , "Raoul" -> {
-                binding.tvDetailUser.text = resources.getStringArray(R.array.user_array)[0]
-                binding.tvDetailArcana.text = resources.getStringArray(R.array.arcana_array)[0]
-                binding.tvDetailOverview.text = getString(R.string.joker)
+                with(resources) {
+                    binding.tvDetailUser.text = getStringArray(R.array.user_array)[0]
+                    binding.tvDetailArcana.text = getStringArray(R.array.arcana_array)[0]
+                    binding.tvDetailOverview.text = getString(R.string.joker)
+                }
                 Glide.with(this)
                     .load(resources.getStringArray(R.array.userPicture)[0])
                     .into(binding.imgItemUser)
                 Glide.with(this)
                     .load(resources.getStringArray(R.array.arcana_img)[0])
                     .into(binding.imgItemArcana)
+
             }
             "Zorro" , "Diego" -> {
                 binding.tvDetailUser.text = resources.getStringArray(R.array.user_array)[1]

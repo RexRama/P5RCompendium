@@ -24,16 +24,9 @@ class MainActivity : AppCompatActivity() {
         installSplashScreen()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        enableEdgeToEdge()
 
         binding.rvPersonas.apply {
             layoutManager = LinearLayoutManager(this@MainActivity)
-            setHasFixedSize(true)
-            ViewCompat.setOnApplyWindowInsetsListener(this) {
-                v, insets -> val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-                v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-                insets
-            }
         }
         rvPersonas = binding.rvPersonas
         showRecyclerList()

@@ -1,7 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Persona5RoyalCompendium" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.Persona5RoyalCompendium" parent="Theme.AppCompat.DayNight">
         <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/red_light</item>
     </style>
 
     <style name="Theme.Persona5RoyalCompendium" parent="Base.Theme.Persona5RoyalCompendium" />
